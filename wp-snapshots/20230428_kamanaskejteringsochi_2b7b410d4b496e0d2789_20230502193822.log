@@ -1,0 +1,72 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: 02.05.2023 19:38
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.3.1
+WORDPRESS:	6.2
+PHP INFO:	7.2.34 | SAPI: apache2handler
+SERVER:		Apache 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (1536M default) 
+MEMORY STACK: 6MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   MYSQLDUMP
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Is Supported
+SQL CREATED: 20230428_kamanaskejteringsochi_2b7b410d4b496e0d2789_20230502193822_database.sql
+SQL FILE SIZE: 1.97MB (2062434)
+SQL FILE TIME: 2023-05-02 19:38:37
+SQL RUNTIME: 6.15 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  C:/OSPanel/domains/kmns
+ARCHIVE FILE: 20230428_kamanaskejteringsochi_2b7b410d4b496e0d2789_20230502193822_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	337.77MB
+STATS:	Dirs 1,053 | Files 7,802
+SQL ADDED: 20230428_kamanaskejteringsochi_2b7b410d4b496e0d2789_20230502193822_database.sql
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 8855
+    [filename] => C:\OSPanel\domains\kmns\wp-snapshots\tmp\20230428_kamanaskejteringsochi_2b7b410d4b496e0d2789_20230502193822_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 8854
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 250.56MB
+ARCHIVE RUNTIME: 15.11 sec.
+MEMORY STACK: 8MB
+building installer
+ARCHIVE CONSISTENCY TEST: PASS
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.97MB
+INSTALLER FILE: 73.36KB
+ARCHIVE FILE: 252.45MB 
+EXPECTED FILE/DIRECTORY COUNT: 8,855
+ACTUAL FILE/DIRECTORY COUNT: 8,854
+ARCHIVE CONSISTENCY TEST: Pass
+
+********************************************************************************
+RECORD ID:[12]
+TOTAL PROCESS RUNTIME: 22.71 sec.
+PEAK PHP MEMORY USED: 10MB
+DONE PROCESSING => 20230428_kamanaskejteringsochi 02.05.2023 19:38
+

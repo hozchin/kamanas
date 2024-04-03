@@ -1,0 +1,9 @@
+.slideup {
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    display: none;
+    width: 70px;
+    z-index: 21474836472;
+    scroll-behavior: smooth;
+}
