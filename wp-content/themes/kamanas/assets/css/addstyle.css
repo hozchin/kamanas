@@ -283,10 +283,12 @@ html {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../assets/img/bonus-img/5.jpg') center/cover;
     height: 80vh;
     align-items: center;
+    border-radius: 20px;
 }
 .advantages-main-title {
     color: #fff;
-    font-weight: 400;
+    font-weight: 500;
+    font-size: 20px;
 }
 .advantages-item {
         background:rgb(247, 247, 247);

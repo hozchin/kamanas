@@ -268,7 +268,7 @@ get_header();
 
     </div>
 
-    <div class="advantages-main d-flex my-4">
+    <div class="container advantages-main d-flex my-4">
         <div class="advantages-main-title mx-auto text-center">А самое главное - мы умеем ну очень вкусно готовить!</div>
         <!-- <div class="row">
             <img class="col-12 rounded" src="<?php echo bloginfo('template_url'); ?>/assets/img/bonus-img/5.jpg" alt="">
