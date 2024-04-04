@@ -81,7 +81,7 @@
     }
     .promo {
         height: 100vh;
-        background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../../assets/img/core-img/promo2.jpg') center/cover;
+        background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../../assets/img/core-img/promo2-a.jpg') center/cover;
     }
     .promo-wrapper {
         flex-direction: column;

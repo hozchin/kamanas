@@ -92,8 +92,7 @@ get_header();
             </div> -->
             <div class="action-mobile col-12 col-md-6 col-lg-3 service-wrapper wow fadeInUp" data-wow-delay="1.1s">
                 <div class="service-item h-100 action montserrat py-3 text-center ">
-                    <span>Акция! </span> При заказе от 100 т.р. <br>"Кофе-брейк" в подарок* <br><a
-                        href="<?php echo get_page_link(1030); ?>">(акция действительна до 01.06.2024)</a>
+                    <span>Акция! </span> При заказе от 100 т.р. <br>"Кофе-брейк" в подарок* <br><a href="<?php echo get_page_link(1030); ?>">(акция действительна до 01.06.2024)</a>
                 </div>
             </div>
         </div>
@@ -164,11 +163,9 @@ get_header();
                         </div>
                         <div class="col-12">
 
-                            <a class="call-link" href="tel:+<?php the_field('phone_number_string', 2); ?>"
-                                rel="nofollow">
+                            <a class="call-link" href="tel:+<?php the_field('phone_number_string', 2); ?>" rel="nofollow">
                                 <div class="call-wrapper-main">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons-img/call.png"
-                                        alt="call">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons-img/call.png" alt="call">
                                     <?php the_field('phone_number', 2); ?>
                                 </div>
                             </a>
@@ -176,11 +173,9 @@ get_header();
 
                         <div class="col-12">
 
-                            <a class="wa-link" href="https://wa.me/<?php the_field('phone_number_string', 2); ?>"
-                                rel="nofollow">
+                            <a class="wa-link" href="https://wa.me/<?php the_field('phone_number_string', 2); ?>" rel="nofollow">
                                 <div class="wa-wrapper">
-                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons-img/wa.png"
-                                        alt="wa">
+                                    <img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons-img/wa.png" alt="wa">
                                     Написать в WhatsApp
                                 </div>
                             </a>
@@ -222,13 +217,12 @@ get_header();
             <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="advantages-item">
                     <div class="advantages-img">
-                        <img class="rounded" src="<?php echo bloginfo('template_url'); ?>/assets/img/bonus-img/2.jpg"
-                            alt="">
+                        <img class="rounded" src="<?php echo bloginfo('template_url'); ?>/assets/img/bonus-img/2.jpg" alt="">
                     </div>
                     <div class="col-12 counter__title text-center my-3">
                         <h5>Индвидуальный подход к каждому мероприятию</h5>
                     </div>
-                    <div class="col-12 counter__title text-center">Можем приготовить некоторые блюда для дегустации
+                    <div class="col-12 counter__title text-center">Формат проведения и меню специально для вас!
                     </div>
                 </div>
             </div>
@@ -236,23 +230,9 @@ get_header();
             <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="advantages-item">
                     <div class="advantages-img">
-                        <img class="rounded" src="<?php echo bloginfo('template_url'); ?>/assets/img/bonus-img/3.jpg"
-                            alt="">
+                        <img class="rounded" src="<?php echo bloginfo('template_url'); ?>/assets/img/bonus-img/3.jpg" alt="">
                     </div>
-                    <div class="col-12 counter__title text-center">
-                        <h5>Комплексное обслуживание</h5>
-                    </div>
-                    <div class="col-12 counter__title text-center">Можем приготовить некоторые блюда для дегустации
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay=".3s">
-                <div class="advantages-item">
-                <div class="advantages-img">
-                        <img class="rounded" src="<?php echo bloginfo('template_url'); ?>/assets/img/bonus-img/4.jpg"
-                            alt="">
-                    </div>
-                    <div class="col-12 counter__title text-center">
+                    <div class="col-12 counter__title text-center my-3">
                         <h5>Только свежие и натуральные продукты</h5>
                     </div>
                     <div class="col-12 counter__title text-center">Можем приготовить некоторые блюда для дегустации
@@ -261,79 +241,53 @@ get_header();
             </div>
             <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                 <div class="advantages-item">
-                <div class="advantages-img">
-                        <img class="rounded" src="<?php echo bloginfo('template_url'); ?>/assets/img/bonus-img/1.jpg"
-                            alt="">
+                    <div class="advantages-img">
+                        <img class="rounded" src="<?php echo bloginfo('template_url'); ?>/assets/img/bonus-img/4.jpg" alt="">
                     </div>
-                    <div class="col-12 counter__title text-center">
+                    <div class="col-12 counter__title text-center my-3">
+                        <h5>Комплексное проведение</h5>
+                    </div>
+                    <div class="col-12 counter__title text-center">Приготовление, оформление, посуда, обслуживание
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 wow fadeInUp" data-wow-delay=".3s">
+                <div class="advantages-item">
+                    <div class="advantages-img">
+                        <img class="rounded" src="<?php echo bloginfo('template_url'); ?>/assets/img/bonus-img/1.jpg" alt="">
+                    </div>
+                    <div class="col-12 counter__title text-center my-3">
                         <h5>Ваше мероприятие в надежных руках</h5>
                     </div>
-                    <div class="col-12 counter__title text-center">Профессиональная команда в сфере ресторанного
-                        обслуживания</div>
+                    <div class="col-12 counter__title text-center">Профессиональная команда в сфере кейтеринга</div>
                 </div>
             </div>
         </div>
+
     </div>
+
+    </div>
+
+    <div class="advantages-main d-flex my-4">
+        <div class="advantages-main-title mx-auto text-center">А самое главное - мы умеем ну очень вкусно готовить!</div>
+        <!-- <div class="row">
+            <img class="col-12 rounded" src="<?php echo bloginfo('template_url'); ?>/assets/img/bonus-img/5.jpg" alt="">
+        </div> -->
     </div>
 </section>
 
-<section class="advantages_area">
-    <div class="container">
-        <div class="advantages-title text-center wow fadeInUp" data-wow-delay=".3s">
-        </div>
-        <div class="row">
-            <div class="col-12 wow fadeInUp" data-wow-delay=".3s">
-                <div class="advantages-item">
-                    <div class="col-12 counter__title text-center">
-                        <h5>Индвидуальный подход к каждому мероприятию</h5>
-                    </div>
-                    <div class="col-12 counter__title text-center">Разработаем меню и приготовим специально для вас!
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 wow fadeInUp" data-wow-delay=".3s">
-                <div class="advantages-item">
-                    <div class="col-12 counter__title text-center">
-                        <h5>Комплексное обслуживание</h5>
-                    </div>
-                    <div class="col-12 counter__title text-center">Приготовим, доставим и проведем полное обслуживание
-                        мероприятия, оставив после себя чистоту</div>
-                </div>
-            </div>
-            <div class="col-12 wow fadeInUp" data-wow-delay=".3s">
-                <div class="advantages-item">
-                    <div class="col-12 counter__title text-center">
-                        <h5>Только свежие и натуральные продукты</h5>
-                    </div>
-                    <div class="col-12 counter__title text-center">Можем приготовить некоторые блюда для дегустации
-                    </div>
-                </div>
-            </div>
-            <div class="col-12 wow fadeInUp" data-wow-delay=".3s">
-                <div class="advantages-item">
-                    <div class="col-12 counter__title text-center">
-                        <h5>Ваше мероприятие в надежных руках</h5>
-                    </div>
-                    <div class="col-12 counter__title text-center">Профессиональная команда в сфере ресторанного
-                        обслуживания</div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
 
 <!-- ****** Advantages Area End ****** -->
 
 <!-- ****** Order Area Start ****** -->
 
-<section class="form_area">
+<!-- <section class="form_area">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="advantages-wrapper wow fadeInUp text-center" data-wow-delay=".3s">
                     <div class="col-12">
-                        <div class="col-12 form-title">
+                        <div class="col-12 form-title py-3">
                             <h5>
                                 <?php the_field('slogan', 2); ?>
                             </h5>
@@ -343,7 +297,7 @@ get_header();
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- ****** About Area Start ****** -->
 
 <section class="about_area">
@@ -451,7 +405,7 @@ get_header();
 
                 foreach ($my_posts as $post) {
                     setup_postdata($post);
-                    ?>
+                ?>
 
                     <div class="col-4 col-lg-2">
                         <div class="partners-thumb">
@@ -461,7 +415,7 @@ get_header();
 
 
 
-                    <?php
+                <?php
                 }
                 wp_reset_postdata(); // сброс
                 ?>

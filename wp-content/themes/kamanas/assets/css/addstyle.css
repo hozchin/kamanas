@@ -17,10 +17,10 @@ html {
     font-family: 'Pattaya', sans-serif;
 }
 .welcome-single-slide .project_title{
-    background:rgba(227, 81, 120, 0.7) !important;
+    background:rgba(216, 43, 107, 0.5) !important;
 }
 .instagram_gallery_item .hover_overlay {
-    background: rgba(227, 81, 120, 0.7) !important;
+    background: rgba(216, 43, 107, 0.5) !important;
 }
 .worktime {
     font-size: 14px;
@@ -31,7 +31,7 @@ html {
     color: #fff;
     box-shadow: 0 0 10px 3px rgba(221, 221, 221, 1);
     /* background-color: rgb(216, 43, 107); */
-    background-color: rgb(227, 81, 120);
+    background-color: rgb(216, 43, 107);
 }
 .action a {
     text-decoration: underline;
@@ -104,7 +104,7 @@ html {
 }
 .promo {
     height: 500px;
-    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../assets/img/core-img/promo.jpg') center/cover;
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../assets/img/core-img/promo-a.jpg') center/cover;
 }
 .promo-wrapper {
     display: flex;
@@ -151,7 +151,7 @@ html {
     box-shadow:0 0 10px 3px rgb(206, 206, 205);
 }
 .service-link:hover .menu-btn {
-    color: rgb(210, 30, 72);
+    color: rgb(216, 43, 107);
 }
 .menu-btn {
     color: #777;
@@ -233,21 +233,22 @@ html {
 .counter__title {
     font-size: 15px;
     font-weight: 400;
-    line-height: 15px;
+    line-height: 18px;
     color:rgb(110, 110, 110);
     padding-left: 0;
     padding-right: 0;
 }
 .counter__title h5 {
     font-weight: 600;
-    color:#fc6c3f;
+    color:#fc6c3f;    
+    color:rgb(227, 81, 120);
 
 }
 
 .counter__number {
     font-weight: 600;
     font-size: 45px;
-    color: rgb(227, 81, 120);
+    color: rgb(216, 43, 107);
 }
 
 .partners-thumb {
@@ -277,6 +278,15 @@ html {
 }
 .service-item {
 
+}
+.advantages-main {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url('../../assets/img/bonus-img/5.jpg') center/cover;
+    height: 80vh;
+    align-items: center;
+}
+.advantages-main-title {
+    color: #fff;
+    font-weight: 400;
 }
 .advantages-item {
         background:rgb(247, 247, 247);
@@ -318,7 +328,7 @@ html {
 .order-number {
     font-size: 40px;
     font-weight: 700;
-    color:rgb(227, 81, 120);
+    color:rgb(216, 43, 107);
 }
 .form-wrapper {    
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0)), url('../../assets/img/form-img/fish2.jpg') center/cover;
